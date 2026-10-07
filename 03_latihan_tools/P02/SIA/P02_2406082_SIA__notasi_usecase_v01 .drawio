@@ -1,0 +1,31 @@
+<mxfile host="65bd71144e">
+    <diagram name="Halaman-1" id="02hLKv3zN3qJ087jI7k3">
+        <mxGraphModel dx="1480" dy="367" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="G49Yb1pEKQFsPPkat8zu-3" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=284;height=38;" value="Sistem Informasi Akademik" vertex="1">
+                    <mxGeometry height="493" width="618" x="76" y="287" as="geometry"/>
+                </mxCell>
+                <mxCell id="IfalOVoFyqtpRx9-X29X-4" parent="G49Yb1pEKQFsPPkat8zu-3" style="whiteSpace=wrap;html=1;verticalAlign=top;shape=ellipse;perimeter=ellipsePerimeter;" value="&lt;div&gt;lihat&lt;/div&gt;jadwal&amp;nbsp;&lt;div&gt;kuliah&amp;nbsp;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="192" y="161" as="geometry"/>
+                </mxCell>
+                <mxCell id="vj-cor-1hFqCun4nGuUI-1" parent="G49Yb1pEKQFsPPkat8zu-3" style="whiteSpace=wrap;html=1;verticalAlign=top;shape=ellipse;perimeter=ellipsePerimeter;" value="&lt;div&gt;kelola&lt;/div&gt;jadwal&amp;nbsp;&lt;div&gt;kuliah&amp;nbsp;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="338" y="293" as="geometry"/>
+                </mxCell>
+                <mxCell id="G49Yb1pEKQFsPPkat8zu-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Mahasiswa" vertex="1">
+                    <mxGeometry height="60" width="30" x="9" y="448" as="geometry"/>
+                </mxCell>
+                <mxCell id="LN9_XkVrsKvnvl3MeIEl-1" edge="1" parent="1" source="G49Yb1pEKQFsPPkat8zu-4" style="edgeStyle=none;html=1;" target="IfalOVoFyqtpRx9-X29X-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="LN9_XkVrsKvnvl3MeIEl-3" edge="1" parent="1" source="LN9_XkVrsKvnvl3MeIEl-2" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="vj-cor-1hFqCun4nGuUI-1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="LN9_XkVrsKvnvl3MeIEl-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Admin&amp;nbsp;&lt;div&gt;Akademik&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="60" width="30" x="770" y="581" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
