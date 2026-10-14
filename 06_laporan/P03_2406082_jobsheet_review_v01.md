@@ -1,0 +1,1 @@
+Ada sedikit kekeliruan di bagian tabel hubungan yan dimana saya lupa harus menyimpan di mana, oleh karna itu saya simpan di P03_SIA_skenario_v01.md.
