@@ -58,15 +58,3 @@ Alasan: pengajuan tetap berhasil tersimpan tanpa pengunduhan bukti.
 
 Use case: SIA-R05 Mengunduh Bukti Pengajuan «extend» SIA-R03 Mengajukan KRS
 
-# TABEL HUBUNGAN
-
-| Sumber         | Hubungan   | Tujuan  |
-|:---------------|:-----------|:--------|
-| Mahasiswa      | Asosiasi   | SIA-R01 |
-| Mahasiswa      | Asosiasi   | SIA-R03 |
-| Mahasiswa      | Asosiasi   | SIA-R05 |
-| Dosen Wali     | Asosiasi   | SIA-R06 |
-| Admin Akademik | Asosiasi   | SIA-R02 |
-| SIA-R03        | «include»  | SIA-R04 |
-| SIA-R06        | «include»  | SIA-R04 |
-| SIA-R05        | «extend»   | SIA-R03 |
