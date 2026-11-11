@@ -1,0 +1,87 @@
+<mxfile host="65bd71144e">
+    <diagram id="ahoAgqF1dGbA6OXGBbl6" name="SIA-UC09">
+        <mxGraphModel dx="1158" dy="1028" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="DJW3ajGgkhoJ00nJrcaO-0"/>
+                <mxCell id="DJW3ajGgkhoJ00nJrcaO-1" parent="DJW3ajGgkhoJ00nJrcaO-0"/>
+                <mxCell id="IECC4yKE2m303sA20a-Z-0" parent="DJW3ajGgkhoJ00nJrcaO-1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=30;horizontalStack=1;html=1;fontStyle=1;" value="Activity Diagram SIA-UC09 — Lihat KHS" vertex="1">
+                    <mxGeometry height="990" width="710" x="60" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="IECC4yKE2m303sA20a-Z-1" parent="IECC4yKE2m303sA20a-Z-0" style="swimlane;startSize=30;horizontal=1;html=1;fontStyle=1;" value="Mahasiswa" vertex="1">
+                    <mxGeometry height="990" width="310" x="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="IECC4yKE2m303sA20a-Z-2" parent="IECC4yKE2m303sA20a-Z-1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="140" y="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="IECC4yKE2m303sA20a-Z-3" parent="IECC4yKE2m303sA20a-Z-1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;" value="Membuka fungsi&#xa;Lihat KHS" vertex="1">
+                    <mxGeometry height="45" width="170" x="70" y="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="IECC4yKE2m303sA20a-Z-4" parent="IECC4yKE2m303sA20a-Z-1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;" value="Memilih semester" vertex="1">
+                    <mxGeometry height="45" width="170" x="70" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="IECC4yKE2m303sA20a-Z-5" parent="IECC4yKE2m303sA20a-Z-1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" value="Melihat rincian KHS (SKS, IPS) /&#xa;menerima tampilan KHS kosong" vertex="1">
+                    <mxGeometry height="50" width="190" x="60" y="819" as="geometry"/>
+                </mxCell>
+                <mxCell id="IECC4yKE2m303sA20a-Z-6" parent="IECC4yKE2m303sA20a-Z-1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="140" y="904" as="geometry"/>
+                </mxCell>
+                <mxCell id="IECC4yKE2m303sA20a-Z-14" edge="1" parent="IECC4yKE2m303sA20a-Z-1" source="IECC4yKE2m303sA20a-Z-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="IECC4yKE2m303sA20a-Z-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="IECC4yKE2m303sA20a-Z-24" edge="1" parent="IECC4yKE2m303sA20a-Z-1" source="IECC4yKE2m303sA20a-Z-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="IECC4yKE2m303sA20a-Z-6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="IECC4yKE2m303sA20a-Z-7" parent="IECC4yKE2m303sA20a-Z-0" style="swimlane;startSize=30;horizontal=1;html=1;fontStyle=1;" value="Sistem" vertex="1">
+                    <mxGeometry height="990" width="370" x="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="IECC4yKE2m303sA20a-Z-8" parent="IECC4yKE2m303sA20a-Z-7" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;" value="Menampilkan daftar semester&#xa;yang tersedia untuk Mahasiswa" vertex="1">
+                    <mxGeometry height="45" width="200" x="85" y="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="IECC4yKE2m303sA20a-Z-9" parent="IECC4yKE2m303sA20a-Z-7" style="rhombus;whiteSpace=wrap;html=1;" value="Ada nilai berstatus&#xa;&quot;Dipublikasikan&quot;?" vertex="1">
+                    <mxGeometry height="70" width="150" x="110" y="315" as="geometry"/>
+                </mxCell>
+                <mxCell id="IECC4yKE2m303sA20a-Z-10" parent="IECC4yKE2m303sA20a-Z-7" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;" value="Menampilkan KHS dengan field mata kuliah,&#xa;SKS, nilai angka, nilai huruf, status publikasi&#xa;(hanya nilai berstatus Dipublikasikan)" vertex="1">
+                    <mxGeometry height="101" width="200" x="10" y="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="IECC4yKE2m303sA20a-Z-11" parent="IECC4yKE2m303sA20a-Z-7" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;" value="Menampilkan total SKS dan Indeks Prestasi&#xa;Semester (IPS) yang dihitung dari&#xa;nilai yang dipublikasikan" vertex="1">
+                    <mxGeometry height="60" width="200" x="10" y="594" as="geometry"/>
+                </mxCell>
+                <mxCell id="IECC4yKE2m303sA20a-Z-12" parent="IECC4yKE2m303sA20a-Z-7" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f8cecc;strokeColor=#b85450;" value="Menampilkan pesan belum ada nilai&#xa;yang dipublikasikan &amp; KHS kosong" vertex="1">
+                    <mxGeometry height="65" width="135" x="225" y="522" as="geometry"/>
+                </mxCell>
+                <mxCell id="IECC4yKE2m303sA20a-Z-13" parent="IECC4yKE2m303sA20a-Z-7" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+                    <mxGeometry height="35" width="50" x="85" y="756" as="geometry"/>
+                </mxCell>
+                <mxCell id="IECC4yKE2m303sA20a-Z-18" edge="1" parent="IECC4yKE2m303sA20a-Z-7" source="IECC4yKE2m303sA20a-Z-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="IECC4yKE2m303sA20a-Z-10" value="[ada nilai dipublikasikan]">
+                    <mxGeometry relative="1" x="0.3437" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="IECC4yKE2m303sA20a-Z-21" edge="1" parent="IECC4yKE2m303sA20a-Z-7" source="IECC4yKE2m303sA20a-Z-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="IECC4yKE2m303sA20a-Z-12" value="[tidak ada nilai]">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="IECC4yKE2m303sA20a-Z-19" edge="1" parent="IECC4yKE2m303sA20a-Z-7" source="IECC4yKE2m303sA20a-Z-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="IECC4yKE2m303sA20a-Z-11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="IECC4yKE2m303sA20a-Z-20" edge="1" parent="IECC4yKE2m303sA20a-Z-7" source="IECC4yKE2m303sA20a-Z-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="IECC4yKE2m303sA20a-Z-13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="IECC4yKE2m303sA20a-Z-22" edge="1" parent="IECC4yKE2m303sA20a-Z-7" source="IECC4yKE2m303sA20a-Z-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=1;entryY=0.5;" target="IECC4yKE2m303sA20a-Z-13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="IECC4yKE2m303sA20a-Z-15" edge="1" parent="IECC4yKE2m303sA20a-Z-0" source="IECC4yKE2m303sA20a-Z-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="IECC4yKE2m303sA20a-Z-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="IECC4yKE2m303sA20a-Z-16" edge="1" parent="IECC4yKE2m303sA20a-Z-0" source="IECC4yKE2m303sA20a-Z-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=1;entryY=0.5;" target="IECC4yKE2m303sA20a-Z-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="IECC4yKE2m303sA20a-Z-17" edge="1" parent="IECC4yKE2m303sA20a-Z-0" source="IECC4yKE2m303sA20a-Z-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" target="IECC4yKE2m303sA20a-Z-9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="IECC4yKE2m303sA20a-Z-23" edge="1" parent="IECC4yKE2m303sA20a-Z-0" source="IECC4yKE2m303sA20a-Z-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="IECC4yKE2m303sA20a-Z-5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

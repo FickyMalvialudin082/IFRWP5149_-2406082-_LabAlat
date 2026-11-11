@@ -1,0 +1,87 @@
+<mxfile host="65bd71144e">
+    <diagram id="zsBMI8opiPMAr_OR96E-" name="SIA-UC13 ">
+        <mxGraphModel dx="1181" dy="1048" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="OdT0tuLfY3VxzW-Ir4Cu-1" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=30;horizontalStack=1;html=1;fontStyle=1;" value="Activity Diagram SIA-UC13 — Hapus Data Mahasiswa" vertex="1">
+                    <mxGeometry height="1000" width="710" x="60" y="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="OdT0tuLfY3VxzW-Ir4Cu-2" parent="OdT0tuLfY3VxzW-Ir4Cu-1" style="swimlane;startSize=30;horizontal=1;html=1;fontStyle=1;" value="Admin Akademik" vertex="1">
+                    <mxGeometry height="1000" width="330" x="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="OdT0tuLfY3VxzW-Ir4Cu-3" parent="OdT0tuLfY3VxzW-Ir4Cu-2" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="150" y="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="OdT0tuLfY3VxzW-Ir4Cu-4" parent="OdT0tuLfY3VxzW-Ir4Cu-2" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;" value="Memilih data mahasiswa yang akan dihapus&#xa;pada daftar Kelola Data Mahasiswa" vertex="1">
+                    <mxGeometry height="45" width="220" x="55" y="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="OdT0tuLfY3VxzW-Ir4Cu-5" parent="OdT0tuLfY3VxzW-Ir4Cu-2" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;" value="Mengonfirmasi penghapusan data" vertex="1">
+                    <mxGeometry height="45" width="200" x="65" y="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="OdT0tuLfY3VxzW-Ir4Cu-6" parent="OdT0tuLfY3VxzW-Ir4Cu-2" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" value="Menerima konfirmasi penghapusan /&#xa;pesan penolakan data aktif" vertex="1">
+                    <mxGeometry height="45" width="200" x="65" y="731" as="geometry"/>
+                </mxCell>
+                <mxCell id="OdT0tuLfY3VxzW-Ir4Cu-7" parent="OdT0tuLfY3VxzW-Ir4Cu-2" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="150" y="811" as="geometry"/>
+                </mxCell>
+                <mxCell id="OdT0tuLfY3VxzW-Ir4Cu-14" edge="1" parent="OdT0tuLfY3VxzW-Ir4Cu-2" source="OdT0tuLfY3VxzW-Ir4Cu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="OdT0tuLfY3VxzW-Ir4Cu-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="OdT0tuLfY3VxzW-Ir4Cu-23" edge="1" parent="OdT0tuLfY3VxzW-Ir4Cu-2" source="OdT0tuLfY3VxzW-Ir4Cu-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="OdT0tuLfY3VxzW-Ir4Cu-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="OdT0tuLfY3VxzW-Ir4Cu-8" parent="OdT0tuLfY3VxzW-Ir4Cu-1" style="swimlane;startSize=30;horizontal=1;html=1;fontStyle=1;" value="Sistem" vertex="1">
+                    <mxGeometry height="1000" width="350" x="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="OdT0tuLfY3VxzW-Ir4Cu-9" parent="OdT0tuLfY3VxzW-Ir4Cu-8" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;" value="Memeriksa data akademik aktif&#xa;(KRS aktif, nilai, atau status akademik)" vertex="1">
+                    <mxGeometry height="45" width="220" x="65" y="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="OdT0tuLfY3VxzW-Ir4Cu-10" parent="OdT0tuLfY3VxzW-Ir4Cu-8" style="rhombus;whiteSpace=wrap;html=1;" value="Memiliki data&#xa;akademik aktif?" vertex="1">
+                    <mxGeometry height="65" width="130" x="110" y="245" as="geometry"/>
+                </mxCell>
+                <mxCell id="OdT0tuLfY3VxzW-Ir4Cu-11" parent="OdT0tuLfY3VxzW-Ir4Cu-8" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#f8cecc;strokeColor=#b85450;" value="Menolak penghapusan &amp; menampilkan pesan&#xa;data akademik aktif harus diselesaikan" vertex="1">
+                    <mxGeometry height="45" width="220" x="65" y="357" as="geometry"/>
+                </mxCell>
+                <mxCell id="OdT0tuLfY3VxzW-Ir4Cu-12" parent="OdT0tuLfY3VxzW-Ir4Cu-8" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;" value="Menghapus data mahasiswa dari database&#xa;dan menampilkan konfirmasi penghapusan" vertex="1">
+                    <mxGeometry height="65" width="220" x="65" y="473" as="geometry"/>
+                </mxCell>
+                <mxCell id="OdT0tuLfY3VxzW-Ir4Cu-13" parent="OdT0tuLfY3VxzW-Ir4Cu-8" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+                    <mxGeometry height="35" width="50" x="150" y="684" as="geometry"/>
+                </mxCell>
+                <mxCell id="OdT0tuLfY3VxzW-Ir4Cu-16" edge="1" parent="OdT0tuLfY3VxzW-Ir4Cu-8" source="OdT0tuLfY3VxzW-Ir4Cu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="OdT0tuLfY3VxzW-Ir4Cu-10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="OdT0tuLfY3VxzW-Ir4Cu-17" edge="1" parent="OdT0tuLfY3VxzW-Ir4Cu-8" source="OdT0tuLfY3VxzW-Ir4Cu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="OdT0tuLfY3VxzW-Ir4Cu-11" value="[ada data aktif]">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="OdT0tuLfY3VxzW-Ir4Cu-18" edge="1" parent="OdT0tuLfY3VxzW-Ir4Cu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;">
+                    <mxGeometry relative="1" x="0.1576" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="175" y="443"/>
+                            <mxPoint x="310" y="443"/>
+                            <mxPoint x="310" y="702.5"/>
+                        </Array>
+                        <mxPoint x="175" y="386" as="sourcePoint"/>
+                        <mxPoint x="200" y="702.4999999999999" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="OdT0tuLfY3VxzW-Ir4Cu-21" edge="1" parent="OdT0tuLfY3VxzW-Ir4Cu-8" source="OdT0tuLfY3VxzW-Ir4Cu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="OdT0tuLfY3VxzW-Ir4Cu-13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="OdT0tuLfY3VxzW-Ir4Cu-15" edge="1" parent="OdT0tuLfY3VxzW-Ir4Cu-1" source="OdT0tuLfY3VxzW-Ir4Cu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="OdT0tuLfY3VxzW-Ir4Cu-9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="OdT0tuLfY3VxzW-Ir4Cu-19" edge="1" parent="OdT0tuLfY3VxzW-Ir4Cu-1" source="OdT0tuLfY3VxzW-Ir4Cu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="OdT0tuLfY3VxzW-Ir4Cu-5" value="[tidak ada data aktif]">
+                    <mxGeometry relative="1" x="0.3147" as="geometry"/>
+                </mxCell>
+                <mxCell id="OdT0tuLfY3VxzW-Ir4Cu-20" edge="1" parent="OdT0tuLfY3VxzW-Ir4Cu-1" source="OdT0tuLfY3VxzW-Ir4Cu-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" target="OdT0tuLfY3VxzW-Ir4Cu-12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="OdT0tuLfY3VxzW-Ir4Cu-22" edge="1" parent="OdT0tuLfY3VxzW-Ir4Cu-1" source="OdT0tuLfY3VxzW-Ir4Cu-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="OdT0tuLfY3VxzW-Ir4Cu-6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
